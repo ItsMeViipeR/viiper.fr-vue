@@ -1,7 +1,6 @@
 <template>
-  <div class="typing">
+  <div class="typing" :data-text="displayedText">
     {{ displayedText }}
-    <span class="cursor">|</span>
   </div>
 </template>
 
@@ -42,6 +41,14 @@ watch(
   font-family: monospace;
   white-space: pre;
   display: inline-block;
+  position: relative;
+}
+
+.typing::after {
+  content: "|";
+  animation: blink 1s step-start infinite;
+  position: absolute;
+  right: -20px;
 }
 
 .cursor {

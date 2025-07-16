@@ -1,7 +1,7 @@
 <template>
   <div class="inset-0 flex flex-col items-center text-white font-sans">
     <section
-      class="bg-(--ui-primary)/10 border-2 border-(--ui-primary) p-8 rounded-2xl shadow-lg w-full max-w-xl"
+      class="bg-(--ui-primary)/20 border-2 border-(--ui-primary) p-8 rounded-2xl shadow-lg w-full max-w-xl"
     >
       <h2 class="mb-4 text-3xl font-semibold">{{ props.title }}</h2>
       <p class="text-lg text-gray-300">{{ props.description }}</p>
