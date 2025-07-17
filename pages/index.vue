@@ -43,5 +43,43 @@
 <script setup lang="ts">
 useHead({
   title: "Home",
+  meta: [
+    {
+      name: "description",
+      content:
+        "Welcome to my portfolio! I'm ViipeR, a passionate web developer focused on front-end, modern interfaces, and smooth user experiences. Explore my work and get in touch!",
+    },
+    {
+      name: "keywords",
+      content:
+        "web developer, front-end, modern interfaces, user experience, portfolio",
+    },
+    {
+      name: "author",
+      content: "ViipeR",
+    },
+    {
+      name: "viewport",
+      content: "width=device-width, initial-scale=1.0",
+    },
+    {
+      name: "twitter:title",
+      content: "Home - ViipeR's Portfolio",
+    },
+    {
+      name: "twitter:description",
+      content:
+        "Welcome to my portfolio! I'm ViipeR, a passionate web developer focused on front-end, modern interfaces, and smooth user experiences. Explore my work and get in touch!",
+    },
+    {
+      name: "og:title",
+      content: "Home - ViipeR's Portfolio",
+    },
+    {
+      name: "og:description",
+      content:
+        "Welcome to my portfolio! I'm ViipeR, a passionate web developer focused on front-end, modern interfaces, and smooth user experiences. Explore my work and get in touch!",
+    },
+  ],
 });
 </script>

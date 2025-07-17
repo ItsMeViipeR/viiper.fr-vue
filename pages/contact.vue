@@ -42,6 +42,47 @@ async function onSubmit(event: FormSubmitEvent<Schema>) {
     });
   }
 }
+
+useHead({
+  title: "Contact Me",
+  meta: [
+    {
+      name: "description",
+      content:
+        "Contact me through this form. I will get back to you as soon as possible.",
+    },
+    {
+      name: "keywords",
+      content: "contact, email, message, form",
+    },
+    {
+      name: "author",
+      content: "ViipeR",
+    },
+    {
+      name: "viewport",
+      content: "width=device-width, initial-scale=1.0",
+    },
+    {
+      name: "twitter:title",
+      content: "Contact Me",
+    },
+    {
+      name: "twitter:description",
+      content:
+        "Contact me through this form. I will get back to you as soon as possible.",
+    },
+    {
+      name: "og:title",
+      content: "Contact Me",
+    },
+    {
+      name: "og:description",
+      content:
+        "Contact me through this form. I will get back to you as soon as possible.",
+    },
+  ],
+});
 </script>
 
 <template>

@@ -45,5 +45,43 @@
 <script lang="ts" setup>
 useHead({
   title: "Projects",
+  meta: [
+    {
+      name: "description",
+      content:
+        "Explore my projects, including Gitwarp, files.dll, ezjson, and more. Discover my work in web development and open source.",
+    },
+    {
+      name: "keywords",
+      content:
+        "projects, Gitwarp, files.dll, ezjson, open source, web development",
+    },
+    {
+      name: "author",
+      content: "ViipeR",
+    },
+    {
+      name: "viewport",
+      content: "width=device-width, initial-scale=1.0",
+    },
+    {
+      name: "twitter:title",
+      content: "Projects",
+    },
+    {
+      name: "twitter:description",
+      content:
+        "Explore my projects, including Gitwarp, files.dll, ezjson, and more. Discover my work in web development and open source.",
+    },
+    {
+      name: "og:title",
+      content: "Projects",
+    },
+    {
+      name: "og:description",
+      content:
+        "Explore my projects, including Gitwarp, files.dll, ezjson, and more. Discover my work in web development and open source.",
+    },
+  ],
 });
 </script>
