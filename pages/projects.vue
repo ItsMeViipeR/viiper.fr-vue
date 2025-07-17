@@ -22,6 +22,21 @@
       image-url="https://www.viiper.fr/_next/image?url=https%3A%2F%2Fimgs.search.brave.com%2FtkZmPdVcFlKhpIDX2NSS3ioslQFeP-XnUgZPnYjDIWc%2Frs%3Afit%3A860%3A0%3A0%3A0%2Fg%3Ace%2FaHR0cHM6Ly90My5m%2FdGNkbi5uZXQvanBn%2FLzA4Lzk2LzM4LzMw%2FLzM2MF9GXzg5NjM4%2FMzAwNV9LVm5YeU1W%2FQm01UDBmTkV0TnFH%2FVlNBN0dWQUw1RWFl%2FYS5qcGc&w=828&q=75"
       project-url="https://github.com/ItsMeViipeR/ezjson"
     />
+    <Card
+      title="HeavensBot"
+      description="A Discord bot that provides a variety of features, including moderation, informations, and more."
+      project-url="https://github.com/ItsMeViipeR/HeavensBot"
+    />
+    <Card
+      title="ezjson"
+      description="A simple JSON editor built with Rust."
+      project-url="https://github.com/ItsMeViipeR/ezjson"
+    />
+    <Card
+      title="WIB"
+      description="Which Is Bigger is a simple program that allows you to get which files are bigger in a specific directory."
+      project-url="https://github.com/ItsMeViipeR/wib"
+    />
   </div>
 </template>
 
