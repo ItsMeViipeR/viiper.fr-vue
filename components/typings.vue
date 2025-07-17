@@ -67,7 +67,7 @@ watch(
   content: "|";
   animation: blink 1s step-start infinite;
   position: absolute;
-  right: -10px;
+  right: -20px;
 }
 
 .cursor {
