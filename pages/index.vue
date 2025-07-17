@@ -64,7 +64,7 @@ useHead({
     },
     {
       name: "twitter:title",
-      content: "Home - ViipeR's Portfolio",
+      content: "Home - ViipeR",
     },
     {
       name: "twitter:description",
@@ -73,7 +73,7 @@ useHead({
     },
     {
       name: "og:title",
-      content: "Home - ViipeR's Portfolio",
+      content: "Home - ViipeR",
     },
     {
       name: "og:description",
