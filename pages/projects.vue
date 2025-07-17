@@ -38,6 +38,8 @@
       project-url="https://github.com/ItsMeViipeR/wib"
     />
   </div>
+  <!-- Add space to seperate cards and footer -->
+  <div class="mb-6"></div>
 </template>
 
 <script lang="ts" setup>

@@ -1,7 +1,7 @@
 <template>
   <Header />
-  <div class="flex flex-col items-center justify-center gap-4 min-h-screen">
-    <UContainer class="py-24 items-center justify-center flex flex-col gap-4">
+  <div class="flex flex-col items-center gap-4 min-h-[calc(100vh-65px)]">
+    <UContainer class="mt-24 items-center justify-center flex flex-col gap-4">
       <slot />
     </UContainer>
   </div>
