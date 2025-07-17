@@ -4,18 +4,19 @@
   >
     <img
       src="https://www.viiper.fr/favicon.ico"
-      class="border-4 border-(--ui-primary) rounded-full w-44 h-w-44 mb-4"
+      class="border-4 border-primary rounded-full w-44 h-w-44 mb-4"
     />
 
     <Typing
       text="Hello, I'm ViipeR 👋"
-      class="text-5xl font-bold mb-6 text-(--ui-primary)"
+      class="text-3xl lg:text-5xl font-bold mb-6 text-primary"
     />
 
-    <div class="flex gap-2">
+    <div class="grid grid-cols-2 gap-2 md:flex">
       <Badge text="Web developer" icon="i-lucide-code" />
       <Badge text="Rust developer" icon="cib:rust" />
       <Badge text="Next.js developer" icon="ri:nextjs-fill" />
+      <Badge text="Nuxt.js developer" icon="material-icon-theme:nuxt" />
     </div>
 
     <p class="text-lg max-w-2xl mx-auto mb-8">
