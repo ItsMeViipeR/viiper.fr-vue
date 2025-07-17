@@ -1,7 +1,7 @@
 <template>
   <Typings
     :texts="['My Principal Projects', 'My Open Source Projects', 'All My Work']"
-    class="text-3xl lg:text-5xl font-bold mb-6 text-primary"
+    class="text-2xl lg:text-5xl font-bold mb-6 text-primary"
   />
   <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
     <Card
