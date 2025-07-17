@@ -45,36 +45,32 @@ async function onSubmit(event: FormSubmitEvent<Schema>) {
 </script>
 
 <template>
-  <UContainer
-    class="py-16 items-center justify-center flex flex-col gap-4 max-w-xl"
+  <UForm
+    :schema="schema"
+    :state="state"
+    class="space-y-4 min-w-full"
+    @submit="onSubmit"
   >
-    <UForm
-      :schema="schema"
-      :state="state"
-      class="space-y-4 min-w-full"
-      @submit="onSubmit"
-    >
-      <UFormField label="Email" name="email">
-        <UInput
-          v-model="state.email"
-          placeholder="Type your email here"
-          class="min-w-full"
-        />
-      </UFormField>
+    <UFormField label="Email" name="email">
+      <UInput
+        v-model="state.email"
+        placeholder="Type your email here"
+        class="min-w-full"
+      />
+    </UFormField>
 
-      <UFormField label="Message" name="message">
-        <UTextarea
-          v-model="state.message"
-          type="text"
-          :rows="10"
-          autoresize
-          color="success"
-          placeholder="Type your message here..."
-          class="min-w-full"
-        />
-      </UFormField>
+    <UFormField label="Message" name="message">
+      <UTextarea
+        v-model="state.message"
+        type="text"
+        :rows="10"
+        autoresize
+        color="success"
+        placeholder="Type your message here..."
+        class="min-w-full"
+      />
+    </UFormField>
 
-      <UButton type="submit"> Submit </UButton>
-    </UForm></UContainer
-  >
+    <UButton type="submit"> Submit </UButton>
+  </UForm>
 </template>
