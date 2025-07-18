@@ -25,16 +25,19 @@
     <Card
       title="HeavensBot"
       description="A Discord bot that provides a variety of features, including moderation, informations, and more."
+      image-url="/heavensbot.png"
       project-url="https://github.com/ItsMeViipeR/HeavensBot"
     />
     <Card
       title="ezjson"
       description="A simple JSON editor built with Rust."
+      image-url="https://placehold.co/600x400"
       project-url="https://github.com/ItsMeViipeR/ezjson"
     />
     <Card
       title="WIB"
       description="Which Is Bigger is a simple program that allows you to get which files are bigger in a specific directory."
+      image-url="https://placehold.co/600x400"
       project-url="https://github.com/ItsMeViipeR/wib"
     />
   </div>
